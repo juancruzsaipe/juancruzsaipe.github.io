@@ -130,14 +130,22 @@ html,body{
     -webkit-transform: scale(1.2);
 }
 
-.contact{
-    position: absolute;
-    right: 0;
-    top: 10px;
-    color: white;
-    padding: 0 60px;
-    display: none;
-    margin-right: 50%;
+
+    .contact{
+        position: absolute;
+        right: 50;
+        top: 10px;
+        color: white;
+        font-family: century gothic; 
+        padding: 0 60px;
+        display: none;
+    }
+    .contact p{
+        font-size: 18px;
+        line-height: 50px;
+    
+    }
+    
 }
 .inputtext{
     width: 55%;
@@ -240,20 +248,7 @@ textarea{
     .gallery .image{
         width: 48%;
     }
-    .contact{
-        position: absolute;
-        right: 0;
-        top: 10px;
-        color: white;
-        font-family: century gothic; 
-        padding: 0 60px;
-        display: none;
-    }
-    .contact p{
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 15px;
-    }
+    
 
 
 
